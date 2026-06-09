@@ -1,55 +1,49 @@
-# [10 Years of Update]
+# [All of this, and yet STILL no Update.]
 
 Fixes:
-   * Fixes a missing effect not being in the list.
-   * Improves the button layout of, and provides emote-specific shownames/blips for, Lamiroir/Machi.
-   * Cleans up April May's emote names and timings.
-   * Fixes lipflaps and sfx timings of Angel Starr.
-   * Fixes Ace's "thinking" emote so he doesn't slide to the right, cleans up his buttons, and condenses his ini.
-   * Reorders Zinc's emotes to a more sensible layout.
-   * Fixes Yuri's buttons to not leak around the corners.
-   * Fixes some timings and removes a redundant cutin from Wocky.
-   * Fixes the outline of one of Seven's preanims.
-   * Replaces the deskslam SFX of Archibald to be the juror one.
+   * Updated Alita's char_icon.png
+   * Removed the old Gumshoe/Gumshoe_AAI folders.
+   * Retimed Bowl's breakdown sfx.
+   * Fixed pairing on JTEPro 2.9
+   * Fixed the starting frame of Olga's (b) emotes.
+   * Ben and Trilo now have emote-specific shownames and blips.
 
 Content additions:
-   * Updated \[AOV\] Anime.opus.
+   * Updated [AOV] Anime.opus
+   * Updated Aigis's theme.
+   * Updated AOVCourt.
 
 The following characters have been added or recieved new emotes:
-   * Dzibilchaltunchunchucmil.
-   * The Wordsmith.
-   * Lettie.
-   * The Storyteller.
-   * Emeer.
-   * Hiyoko Saionji.
-   * Vera.
-   * Lynne.
+   * Narrator
+   * Harvey Birdman
+   * Franziska_Wit
+   * Lynne
+   * Adrian
+   * Apollo_Pro
+   * Dick_AAI_Young
 
 The following songs have been added to the jukebox:
    * None, this time.
 
 Content changes:
-   * Apollo has had his folder remade.
-   * Vera has had her folder remade.
-   * Richard Wellington has had his folder remade.
-   * AJCourtTV has been merged with AJCourt.
+   * Aigis has had her folder remade.
+   * Prosecutor Justice has had his folder remade.
+   * Harvey Birdman has had his folder remade.
+   * The Consultation Effect has been added.
+   * The Choose Your Answer Effect has been added.
+   * A Reimu Fumo has been added to the evidence.
 
 Other:
    * Ishimaru's polling has been put off, again.
  
 BATCH FILE
+  (Note that this should be done BEFORE applying the new files.)
   
 Changes:
 N/A
 
 Removes:
-* base\\characters\\Apollo
-* base\\characters\\Vera
-* base\\characters\\Richard
-* base\\background\\AJCourtTV
-* base\\characters\\Ace\\Emotions\\button11_off.png
-* base\\characters\\Ace\\Emotions\\button11_on.png
-* base\\characters\\Ace\\Emotions\\button12_off.png
-* base\\characters\\Ace\\Emotions\\button12_on.png
-* base\\characters\\Wocky\\Emotions\\button20_off.png
-* base\\characters\\Wocky\\Emotions\\button20_on.png
+* base\\characters\\Gumshoe
+* base\\characters\\Gumshoe_AAI
+* base\\characters\\Harvey
+* base\\sounds\\general\\sfx-bowl-foiled.opus
